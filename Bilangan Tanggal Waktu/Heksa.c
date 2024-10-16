@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int a = 0x1a;
+    int b = 0x2;
+    printf ("0x%x + 0x%x = 0x%x\n", a,b, (a+b));
+    printf ("0x%x - 0x%x = 0x%x\n", a,b, (a-b));
+    printf ("0x%x * 0x%x = 0x%x\n", a,b, (a*b));
+    printf ("0x%x / 0x%x = 0x%x\n", a,b, (a/b));
+    printf ("0x%x %% 0x%x = 0x%x\n", a,b, (a%b));
+    return 0;
+}
